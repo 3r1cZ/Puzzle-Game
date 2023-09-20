@@ -5,16 +5,25 @@ function draw(){
   document.getElementById("gameCanvas").height = window.innerHeight;
 }
 
+function loadWordSort(){
+  getText('words.txt')
+  .then(text => addWords(text))
+}
+
 // read files
-function getText(file) {
+async function getText(file) {
+  let fetchedFile = await fetch(file);
+  let text = await fetchedFile.text();
+  return text;
 }
 
 // https://www.w3schools.com/html/html5_canvas.asp
 
-function addWords(){
+function addWords(text){
   let c = document.getElementById("gameCanvas");
   let ctx = c.getContext("2d");
-  let text = ctx.strokeText("Hello World",10,50);
+
+  ctx.strokeText(text,10,50);
 }
 
 
