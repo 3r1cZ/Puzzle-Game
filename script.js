@@ -1,10 +1,12 @@
 
 
+// expanding canvas to fit window
 function draw(){
   document.getElementById("gameCanvas").width  = window.innerWidth;
   document.getElementById("gameCanvas").height = window.innerHeight;
 }
 
+// calling functions to load the Word Sort puzzle
 function loadWordSort(){
   getText('words.txt')
   .then(text => addWords(text))
@@ -17,8 +19,9 @@ async function getText(file) {
   return text;
 }
 
-// https://www.w3schools.com/html/html5_canvas.asp
+// https://www.w3schools.com/html/html5_canvas.asp - link for canvas operations
 
+// draw words onto canvas
 function addWords(text){
   let c = document.getElementById("gameCanvas");
   let ctx = c.getContext("2d");
@@ -30,6 +33,7 @@ function addWords(text){
 
 // https://www.w3schools.com/howto/howto_js_draggable.asp
 
+// drag elements when clicked on
 function dragElement(id){
   dragElement(document.getElementById(id))
 }
