@@ -22,8 +22,9 @@ async function getText(file) {
 function addWords(text){
   let c = document.getElementById("gameCanvas");
   let ctx = c.getContext("2d");
-
-  ctx.strokeText(text,10,50);
+  let randX = Math.floor(Math.random() * document.getElementById("gameCanvas").width)
+  let randY = Math.floor(Math.random() * document.getElementById("gameCanvas").height)
+  ctx.strokeText(text,randX,randY);
 }
 
 
