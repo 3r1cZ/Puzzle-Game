@@ -1,5 +1,5 @@
 # Puzzle-Game
-This project will be a web application or PC/mobile game (TBD) to play a variety of puzzles until the player loses through time (only designated per puzzle). 
+This project is a web application that allows a user to play a variety of puzzles until the player loses through time (only designated per puzzle). 
 <br>
 The goal of the game is for the player to reach the highest score that they can possibly achieve.
 <br>
