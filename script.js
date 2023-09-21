@@ -9,7 +9,7 @@ function draw(){
 // calling functions to load the Word Sort puzzle
 function loadWordSort(){
   getText('words.txt')
-  .then(text => addWords(text))
+  .then(text => addWords(text));
 }
 
 // read files
@@ -23,11 +23,17 @@ async function getText(file) {
 
 // draw words onto canvas
 function addWords(text){
+  textArr = text.split("\n");
   let c = document.getElementById("gameCanvas");
   let ctx = c.getContext("2d");
   let randX = Math.floor(Math.random() * document.getElementById("gameCanvas").width)
   let randY = Math.floor(Math.random() * document.getElementById("gameCanvas").height)
-  ctx.strokeText(text,randX,randY);
+  ctx.font = "100px serif";
+  for(let i=0; i<textArr.length; i++){
+    ctx.fillText(textArr[i],randX,randY);
+    randX = Math.floor(Math.random() * document.getElementById("gameCanvas").width)
+    randY = Math.floor(Math.random() * document.getElementById("gameCanvas").height)
+  }
 }
 
 
