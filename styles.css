@@ -9,33 +9,38 @@ html, body {
   position: absolute;
   font-size: 70px;
   left: 600px;
+  max-height: 0px;
   cursor: move;
 }
 .draggable-text-2 {
   position: absolute;
   font-size: 70px;
   left: 1100px;
+  max-height: 0px;
   cursor: move;
 }
 .draggable-text-3 {
   position: absolute;
   font-size: 70px;
   left: 1200px;
-  bottom: 300px;
+  bottom: 500px;
+  max-height: 0px;
   cursor: move;
 }
 .draggable-text-4 {
   position: absolute;
   font-size: 70px;
   left: 700px;
-  bottom: 300px;
+  bottom: 500px;
+  max-height: 0px;
   cursor: move;
 }
 .draggable-text-5 {
   position: absolute;
   font-size: 70px;
   left: 800px;
-  bottom: 90px;
+  bottom: 290px;
+  max-height: 0px;
   cursor: move;
 }
 
