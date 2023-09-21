@@ -5,3 +5,67 @@ html, body {
   }
 
 /* https://www.w3schools.com/howto/howto_js_draggable.asp */
+.draggable-text-1 {
+  position: absolute;
+  font-size: 70px;
+  left: 600px;
+  cursor: move;
+}
+.draggable-text-2 {
+  position: absolute;
+  font-size: 70px;
+  left: 1100px;
+  cursor: move;
+}
+.draggable-text-3 {
+  position: absolute;
+  font-size: 70px;
+  left: 1200px;
+  bottom: 300px;
+  cursor: move;
+}
+.draggable-text-4 {
+  position: absolute;
+  font-size: 70px;
+  left: 700px;
+  bottom: 300px;
+  cursor: move;
+}
+.draggable-text-5 {
+  position: absolute;
+  font-size: 70px;
+  left: 800px;
+  bottom: 90px;
+  cursor: move;
+}
+
+.input-text-1 {
+  position: absolute;
+  font-size: 70px;
+  left: 50px;
+  bottom: 500px;
+}
+.input-text-2 {
+  position: absolute;
+  font-size: 70px;
+  left: 50px;
+  bottom: 375px;
+}
+.input-text-3 {
+  position: absolute;
+  font-size: 70px;
+  left: 50px;
+  bottom: 250px;
+}
+.input-text-4 {
+  position: absolute;
+  font-size: 70px;
+  left: 50px;
+  bottom: 125px;
+}
+.input-text-5 {
+  position: absolute;
+  font-size: 70px;
+  left: 50px;
+  bottom: 0px;
+}

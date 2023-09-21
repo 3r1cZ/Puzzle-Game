@@ -1,11 +1,4 @@
 
-
-// expanding canvas to fit window
-function draw(){
-  document.getElementById("gameCanvas").width  = window.innerWidth;
-  document.getElementById("gameCanvas").height = window.innerHeight;
-}
-
 // calling functions to load the Word Sort puzzle
 function loadWordSort(){
   getText('words.txt')
@@ -23,36 +16,30 @@ async function getText(file) {
 
 // draw words onto canvas
 function addWords(text){
-  textArr = text.split("\n");
-  let c = document.getElementById("gameCanvas");
-  let ctx = c.getContext("2d");
-  let randX = Math.floor(Math.random() * document.getElementById("gameCanvas").width)
-  let randY = Math.floor(Math.random() * document.getElementById("gameCanvas").height)
-  ctx.font = "100px serif";
-  for(let i=0; i<textArr.length; i++){
-    ctx.fillText(textArr[i],randX,randY);
-    randX = Math.floor(Math.random() * document.getElementById("gameCanvas").width)
-    randY = Math.floor(Math.random() * document.getElementById("gameCanvas").height)
+  let textArr = text.split("\n"); // convert text string to array
+  let wordOutput = []; 
+  // choose 5 words from the text array to display
+  for(let i=0; i<5; i++){
+    let randomChoice = Math.floor(Math.random() * textArr.length);
+    // ensures that no words repeat
+    while(wordOutput.includes(textArr[randomChoice])){
+      randomChoice = Math.floor(Math.random() * textArr.length);
+    }
+    wordOutput.push(textArr[randomChoice]);
+  }
+  for(let i=0; i<5; i++){
+    document.getElementById("text" + (i+1)).innerText = wordOutput[i];
+    dragElement(document.getElementById("textMove" + (i+1)));
+    console.log(wordOutput[i]);
   }
 }
 
 
 // https://www.w3schools.com/howto/howto_js_draggable.asp
 
-// drag elements when clicked on
-function dragElement(id){
-  dragElement(document.getElementById(id))
-}
-
 function dragElement(elmnt) {
   let pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
-  if (document.getElementById(elmnt.id + "header")) {
-    // if present, the header is where you move the DIV from:
-    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
-  } else {
-    // otherwise, move the DIV from anywhere inside the DIV:
-    elmnt.onmousedown = dragMouseDown;
-  }
+  elmnt.onmousedown = dragMouseDown; // drag element
 
   function dragMouseDown(e) {
     e = e || window.event;
