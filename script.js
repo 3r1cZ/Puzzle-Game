@@ -1,5 +1,7 @@
 // calling functions to load the Word Sort puzzle
 function loadWordSort(){
+  display = document.querySelector('#time');
+  startTimer(20, display);
   getText('words.txt')
   .then(text => addWords(text));
 }
@@ -34,8 +36,6 @@ function addWords(text){
 function isOverlapping(div1, div2){
   const div1Rect = div1.getBoundingClientRect();
   const div2Rect = div2.getBoundingClientRect();
-  console.log(div1Rect);
-  console.log(div2Rect);
   if(div2 == document.getElementById("input1")){
     return (div1Rect.x >=50 && div1Rect.x <=400 && div1Rect.y >=-68 && div1Rect.y <=0);
   }
@@ -55,7 +55,6 @@ function isOverlapping(div1, div2){
 
 // https://www.w3schools.com/howto/howto_js_draggable.asp
 function dragElement(elmnt) {
-  console.log(elmnt);
   let pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
   elmnt.onmousedown = dragMouseDown; // begin drag of element
 
@@ -109,4 +108,29 @@ function dragElement(elmnt) {
       elmnt.style.top = "482px";
     }
   }
+}
+
+let intervalID;
+function startTimer(duration, display) {
+  var timer = duration, minutes, seconds;
+  intervalID = setInterval(function () {
+      minutes = parseInt(timer / 60, 10);
+      seconds = parseInt(timer % 60, 10);
+
+      minutes = minutes < 10 ? "0" + minutes : minutes;
+      seconds = seconds < 10 ? "0" + seconds : seconds;
+
+      display.textContent = minutes + ":" + seconds;
+
+      if (--timer < 0) {
+          timer = 0;
+          console.log(timer);
+          stopTimer();
+      }
+  }, 1000);
+}
+
+function stopTimer(){
+  clearInterval(intervalID);
+  intervalID = null;
 }

@@ -9,6 +9,7 @@ html, body {
   position: absolute;
   font-size: 70px;
   left: 600px;
+  top: 30px;
   max-height: 0px;
   cursor: move;
   background-color: aquamarine;
@@ -17,6 +18,7 @@ html, body {
   position: absolute;
   font-size: 70px;
   left: 1100px;
+  top: 30px;
   max-height: 0px;
   cursor: move;
 }
@@ -74,4 +76,9 @@ html, body {
   font-size: 70px;
   left: 50px;
   bottom: 0px;
+}
+
+.timer {
+  text-align: center;
+  font-size: 50px;
 }
