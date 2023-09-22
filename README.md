@@ -1,8 +1,8 @@
 # Puzzle-Game
 This project is a web application that allows a user to play a variety of puzzles until the player loses through time (only designated per puzzle). 
-<br>
+<br><br>
 The goal of the game is for the player to reach the highest score that they can possibly achieve.
-<br>
+<br><br>
 Points will be awarded based on a number of factors (more information in [puzzles](#puzzles))
 
 ## Contents
