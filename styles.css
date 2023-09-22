@@ -49,6 +49,7 @@ html, body {
   font-size: 70px;
   left: 50px;
   bottom: 500px;
+  background-color: aquamarine;
 }
 .input-text-2 {
   position: absolute;
