@@ -34,8 +34,7 @@ function addWords(text){
 
 // check for overlapping 
 function isOverlapping(div1, div2){
-  const div1Rect = div1.getBoundingClientRect();
-  const div2Rect = div2.getBoundingClientRect();
+  const div1Rect = div1.getBoundingClientRect(); // element being dragged
   if(div2 == document.getElementById("input1")){
     return (div1Rect.x >=50 && div1Rect.x <=400 && div1Rect.y >=-68 && div1Rect.y <=0);
   }
@@ -51,6 +50,16 @@ function isOverlapping(div1, div2){
   else if(div2 == document.getElementById("input5")){
     return (div1Rect.x >=50 && div1Rect.x <=400 && div1Rect.y >373 && div1Rect.y <=525);
   }
+}
+
+// checks if a word is in an input spot
+function isInASpot(elmnt){
+  let rectElem = elmnt.getBoundingClientRect();
+  return ((rectElem.x == 102 && rectElem.y == -18) || 
+  (rectElem.x == 102 && rectElem.y == 106) ||
+  (rectElem.x == 102 && rectElem.y == 232) ||
+  (rectElem.x == 102 && rectElem.y == 356) ||
+  (rectElem.x == 102 && rectElem.y == 482));
 }
 
 // https://www.w3schools.com/howto/howto_js_draggable.asp
@@ -107,6 +116,14 @@ function dragElement(elmnt) {
       elmnt.style.left = "102px";
       elmnt.style.top = "482px";
     }
+
+    // if all words are on the input spots
+    if(isInASpot(document.getElementById("textMove1")) && isInASpot(document.getElementById("textMove2")) && 
+    isInASpot(document.getElementById("textMove3")) && isInASpot(document.getElementById("textMove4")) &&
+    isInASpot(document.getElementById("textMove5"))){
+      checkCorrect();
+    } 
+
   }
 }
 
@@ -133,4 +150,8 @@ function startTimer(duration, display) {
 function stopTimer(){
   clearInterval(intervalID);
   intervalID = null;
+}
+
+function checkCorrect(){
+  
 }
