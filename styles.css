@@ -11,6 +11,7 @@ html, body {
   left: 600px;
   max-height: 0px;
   cursor: move;
+  background-color: aquamarine;
 }
 .draggable-text-2 {
   position: absolute;
@@ -49,7 +50,6 @@ html, body {
   font-size: 70px;
   left: 50px;
   bottom: 500px;
-  background-color: aquamarine;
 }
 .input-text-2 {
   position: absolute;

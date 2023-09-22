@@ -1,4 +1,3 @@
-
 // calling functions to load the Word Sort puzzle
 function loadWordSort(){
   getText('words.txt')
@@ -12,9 +11,7 @@ async function getText(file) {
   return text;
 }
 
-// https://www.w3schools.com/html/html5_canvas.asp - link for canvas operations
-
-// draw words onto canvas
+// add text to screen
 function addWords(text){
   let textArr = text.split("\n"); // convert text string to array
   let wordOutput = []; 
@@ -40,7 +37,19 @@ function isOverlapping(div1, div2){
   console.log(div1Rect);
   console.log(div2Rect);
   if(div2 == document.getElementById("input1")){
-    return (div1Rect.x >=50 && div1Rect.x <=400 && div1Rect.y >=-44 && div1Rect.y <=0);
+    return (div1Rect.x >=50 && div1Rect.x <=400 && div1Rect.y >=-68 && div1Rect.y <=0);
+  }
+  else if(div2 == document.getElementById("input2")){
+    return (div1Rect.x >=50 && div1Rect.x <=400 && div1Rect.y >0 && div1Rect.y <=121);
+  }
+  else if(div2 == document.getElementById("input3")){
+    return (div1Rect.x >=50 && div1Rect.x <=400 && div1Rect.y >121 && div1Rect.y <=253);
+  }
+  else if(div2 == document.getElementById("input4")){
+    return (div1Rect.x >=50 && div1Rect.x <=400 && div1Rect.y >253 && div1Rect.y <=373);
+  }
+  else if(div2 == document.getElementById("input5")){
+    return (div1Rect.x >=50 && div1Rect.x <=400 && div1Rect.y >373 && div1Rect.y <=525);
   }
 }
 
@@ -81,9 +90,23 @@ function dragElement(elmnt) {
     document.onmousemove = null;
     if(isOverlapping(elmnt, document.getElementById("input1"))){
       elmnt.style.left = "102px";
-      elmnt.style.right = "218.70000457763672px";
       elmnt.style.top = "-18px";
-      elmnt.style.bottom = "-18px";
+    }
+    else if(isOverlapping(elmnt, document.getElementById("input2"))){
+      elmnt.style.left = "102px";
+      elmnt.style.top = "106px";
+    }
+    else if(isOverlapping(elmnt, document.getElementById("input3"))){
+      elmnt.style.left = "102px";
+      elmnt.style.top = "232px";
+    }
+    else if(isOverlapping(elmnt, document.getElementById("input4"))){
+      elmnt.style.left = "102px";
+      elmnt.style.top = "356px";
+    }
+    else if(isOverlapping(elmnt, document.getElementById("input5"))){
+      elmnt.style.left = "102px";
+      elmnt.style.top = "482px";
     }
   }
 }
