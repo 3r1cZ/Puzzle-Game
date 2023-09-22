@@ -13,10 +13,10 @@ async function getText(file) {
   return text;
 }
 
+let wordOutput = []; //5 words to be displayed
 // add text to screen
 function addWords(text){
   let textArr = text.split("\n"); // convert text string to array
-  let wordOutput = []; 
   // choose 5 words from the text array to display
   for(let i=0; i<5; i++){
     let randomChoice = Math.floor(Math.random() * textArr.length);
@@ -27,7 +27,7 @@ function addWords(text){
     wordOutput.push(textArr[randomChoice]);
   }
   for(let i=0; i<5; i++){
-    document.getElementById("text" + (i+1)).innerText = wordOutput[i];
+    document.getElementById("text" + (i+1)).textContent = wordOutput[i];
     dragElement(document.getElementById("textMove" + (i+1)));
   }
 }
@@ -53,13 +53,27 @@ function isOverlapping(div1, div2){
 }
 
 // checks if a word is in an input spot
+
 function isInASpot(elmnt){
   let rectElem = elmnt.getBoundingClientRect();
-  return ((rectElem.x == 102 && rectElem.y == -18) || 
-  (rectElem.x == 102 && rectElem.y == 106) ||
-  (rectElem.x == 102 && rectElem.y == 232) ||
-  (rectElem.x == 102 && rectElem.y == 356) ||
-  (rectElem.x == 102 && rectElem.y == 482));
+  if(rectElem.x == 102 && rectElem.y == -18){
+    return 1;
+  }
+  else if(rectElem.x == 102 && rectElem.y == 106){
+    return 2;
+  }
+  else if(rectElem.x == 102 && rectElem.y == 232){
+    return 3;
+  }
+  else if(rectElem.x == 102 && rectElem.y == 356){
+    return 4;
+  }
+  else if(rectElem.x == 102 && rectElem.y == 482){
+    return 5;
+  }
+  else{
+    return null;
+  }
 }
 
 // https://www.w3schools.com/howto/howto_js_draggable.asp
@@ -118,10 +132,22 @@ function dragElement(elmnt) {
     }
 
     // if all words are on the input spots
-    if(isInASpot(document.getElementById("textMove1")) && isInASpot(document.getElementById("textMove2")) && 
-    isInASpot(document.getElementById("textMove3")) && isInASpot(document.getElementById("textMove4")) &&
-    isInASpot(document.getElementById("textMove5"))){
-      checkCorrect();
+    let spot1 = isInASpot(document.getElementById("textMove1"));
+    let spot2 = isInASpot(document.getElementById("textMove2"));
+    let spot3 = isInASpot(document.getElementById("textMove3"));
+    let spot4 = isInASpot(document.getElementById("textMove4"));
+    let spot5 = isInASpot(document.getElementById("textMove5"));
+    let word1 = document.getElementById("text1").textContent;
+    let word2 = document.getElementById("text2").textContent;
+    let word3 = document.getElementById("text3").textContent;
+    let word4 = document.getElementById("text4").textContent;
+    let word5 = document.getElementById("text5").textContent;
+    let spots = [spot1, spot2, spot3, spot4, spot5]; // location of words
+    let words = [word1, word2, word3, word4, word5]; // words that correspond with spots
+
+    if(spot1 != null && spot2 != null && spot3 != null && spot4 != null && spot5 != null){
+      stopTimer();
+      checkCorrect(spots, words);
     } 
 
   }
@@ -152,6 +178,32 @@ function stopTimer(){
   intervalID = null;
 }
 
-function checkCorrect(){
-  
+// checks if the spots are sorted in alphabetical order
+function checkCorrect(spots, words){
+  wordsSorted = wordOutput.sort();
+  // sort spots to go from top to bottom
+  for(let i=0; i<5; i++){
+      for(let j=1; j<6; j++){
+        if(spots[i] ==j){
+          let temp = spots[j-1];
+          spots[j-1] = spots[i];
+          spots[i] = temp;
+          let tempW = words[j-1];
+          words[j-1] = words[i];
+          words[i] = tempW;
+        }
+      }
+    }
+  let correct = true;
+  // checks if words are alphabetical
+  for(let i=0; i<5;i++){
+    if(wordsSorted[i]!=words[i]){
+      correct = false;
+    }
+  }
+  if(correct){
+    console.log("matches");
+  }else{
+    console.log("does not match");
+  }
 }

@@ -32,6 +32,7 @@ Fact
 Faint
 Fair
 Fairy
+Fake
 Fall
 Fast
 Fear
@@ -93,6 +94,7 @@ Queen
 Queer
 Race
 Rail
+Real
 Reek
 Road
 Roam
