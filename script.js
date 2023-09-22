@@ -110,7 +110,8 @@ function dragElement(elmnt) {
   }
 }
 
-let intervalID;
+let intervalID; // stores interval function
+// timer countdown
 function startTimer(duration, display) {
   var timer = duration, minutes, seconds;
   intervalID = setInterval(function () {
@@ -124,7 +125,6 @@ function startTimer(duration, display) {
 
       if (--timer < 0) {
           timer = 0;
-          console.log(timer);
           stopTimer();
       }
   }, 1000);
