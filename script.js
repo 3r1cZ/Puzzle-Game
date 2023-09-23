@@ -207,6 +207,7 @@ function checkAlphabetical(spots, words){
     document.getElementById("game-result").textContent = "Incorrect!";
   }
   unDragElements();
+  document.querySelector(".home-button").style.visibility = "visible";
 }
 
 function unDragElements(){

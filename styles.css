@@ -4,6 +4,8 @@ html, body {
     margin: 0;
   }
 
+/* All are styles relating to wordSort.html */
+
 /* https://www.w3schools.com/howto/howto_js_draggable.asp */
 .draggable-text-1 {
   position: absolute;
@@ -88,4 +90,13 @@ html, body {
   position: absolute;
   left: 900px;
   bottom: 30px;
+}
+
+.home-button {
+  position: absolute;
+  left: 900px;
+  width: 250px;
+  height: 70px;
+  bottom: 430px;
+  visibility: hidden;
 }
