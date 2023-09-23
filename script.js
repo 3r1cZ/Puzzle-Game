@@ -206,4 +206,13 @@ function checkAlphabetical(spots, words){
   }else{
     document.getElementById("game-result").textContent = "Incorrect!";
   }
+  unDragElements();
+}
+
+function unDragElements(){
+  document.getElementById("textMove1").style.pointerEvents = "none";
+  document.getElementById("textMove2").style.pointerEvents = "none";
+  document.getElementById("textMove3").style.pointerEvents = "none";
+  document.getElementById("textMove4").style.pointerEvents = "none";
+  document.getElementById("textMove5").style.pointerEvents = "none";
 }
