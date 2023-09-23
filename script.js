@@ -1,6 +1,6 @@
 // calling functions to load the Word Sort puzzle
 function loadWordSort(){
-  display = document.querySelector('#time');
+  display = document.querySelector('#timer');
   startTimer(20, display);
   getText('words.txt')
   .then(text => addWords(text));
@@ -169,6 +169,7 @@ function startTimer(duration, display) {
       if (--timer < 0) {
           timer = 0;
           stopTimer();
+          endGameDisplay(false);
       }
   }, 1000);
 }
@@ -201,6 +202,10 @@ function checkAlphabetical(spots, words){
       correct = false;
     }
   }
+  endGameDisplay(correct);
+}
+
+function endGameDisplay(correct){
   if(correct){
     document.getElementById("game-result").textContent = "Correct!";
   }else{
@@ -208,12 +213,16 @@ function checkAlphabetical(spots, words){
   }
   unDragElements();
   document.querySelector(".home-button").style.visibility = "visible";
+  // hides an element if they are not in a spot
+  for(let i=0; i<5; i++){
+    if(!isInASpot(document.getElementById("textMove" + (i+1)))){
+      document.getElementById("textMove" + (i+1)).style.visibility = "hidden";
+    }
+  }
 }
 
 function unDragElements(){
-  document.getElementById("textMove1").style.pointerEvents = "none";
-  document.getElementById("textMove2").style.pointerEvents = "none";
-  document.getElementById("textMove3").style.pointerEvents = "none";
-  document.getElementById("textMove4").style.pointerEvents = "none";
-  document.getElementById("textMove5").style.pointerEvents = "none";
+  for(let i=0; i<5; i++){
+    document.getElementById("textMove" + (i+1)).style.pointerEvents = "none";
+  }
 }

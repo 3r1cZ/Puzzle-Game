@@ -7,7 +7,7 @@ html, body {
 /* All are styles relating to wordSort.html */
 
 /* https://www.w3schools.com/howto/howto_js_draggable.asp */
-.draggable-text-1 {
+#textMove1 {
   position: absolute;
   font-size: 70px;
   left: 600px;
@@ -16,7 +16,7 @@ html, body {
   cursor: move;
   background-color: aquamarine;
 }
-.draggable-text-2 {
+#textMove2 {
   position: absolute;
   font-size: 70px;
   left: 1100px;
@@ -24,7 +24,7 @@ html, body {
   max-height: 0px;
   cursor: move;
 }
-.draggable-text-3 {
+#textMove3 {
   position: absolute;
   font-size: 70px;
   left: 1200px;
@@ -32,7 +32,7 @@ html, body {
   max-height: 0px;
   cursor: move;
 }
-.draggable-text-4 {
+#textMove4 {
   position: absolute;
   font-size: 70px;
   left: 700px;
@@ -40,7 +40,7 @@ html, body {
   max-height: 0px;
   cursor: move;
 }
-.draggable-text-5 {
+#textMove5 {
   position: absolute;
   font-size: 70px;
   left: 800px;
@@ -80,12 +80,12 @@ html, body {
   bottom: 0px;
 }
 
-.timer {
+#timer {
   text-align: center;
   font-size: 50px;
 }
 
-.game-result-text {
+#game-result {
   font-size: 70px;
   position: absolute;
   left: 900px;
