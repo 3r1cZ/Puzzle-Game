@@ -82,3 +82,10 @@ html, body {
   text-align: center;
   font-size: 50px;
 }
+
+.game-result-text {
+  font-size: 70px;
+  position: absolute;
+  left: 900px;
+  bottom: 30px;
+}

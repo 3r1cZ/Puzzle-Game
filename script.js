@@ -147,7 +147,7 @@ function dragElement(elmnt) {
 
     if(spot1 != null && spot2 != null && spot3 != null && spot4 != null && spot5 != null){
       stopTimer();
-      checkCorrect(spots, words);
+      checkAlphabetical(spots, words);
     } 
 
   }
@@ -179,7 +179,7 @@ function stopTimer(){
 }
 
 // checks if the spots are sorted in alphabetical order
-function checkCorrect(spots, words){
+function checkAlphabetical(spots, words){
   wordsSorted = wordOutput.sort();
   // sort spots to go from top to bottom
   for(let i=0; i<5; i++){
@@ -202,8 +202,8 @@ function checkCorrect(spots, words){
     }
   }
   if(correct){
-    console.log("matches");
+    document.getElementById("game-result").textContent = "Correct!";
   }else{
-    console.log("does not match");
+    document.getElementById("game-result").textContent = "Incorrect!";
   }
 }
