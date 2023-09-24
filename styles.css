@@ -1,102 +1,19 @@
 html, body {
-    width:  100%;
-    height: 100%;
-    margin: 0;
-  }
-
-/* All are styles relating to wordSort.html */
-
-/* https://www.w3schools.com/howto/howto_js_draggable.asp */
-#textMove1 {
-  position: absolute;
-  font-size: 70px;
-  left: 600px;
-  top: 30px;
-  max-height: 0px;
-  cursor: move;
-  background-color: aquamarine;
-}
-#textMove2 {
-  position: absolute;
-  font-size: 70px;
-  left: 1100px;
-  top: 30px;
-  max-height: 0px;
-  cursor: move;
-}
-#textMove3 {
-  position: absolute;
-  font-size: 70px;
-  left: 1200px;
-  bottom: 500px;
-  max-height: 0px;
-  cursor: move;
-}
-#textMove4 {
-  position: absolute;
-  font-size: 70px;
-  left: 700px;
-  bottom: 500px;
-  max-height: 0px;
-  cursor: move;
-}
-#textMove5 {
-  position: absolute;
-  font-size: 70px;
-  left: 800px;
-  bottom: 290px;
-  max-height: 0px;
-  cursor: move;
+  width:  100%;
+  height: 100%;
+  margin: 0;
 }
 
-.input-text-1 {
+.wordSort-button {
   position: absolute;
-  font-size: 70px;
-  left: 50px;
-  bottom: 500px;
-}
-.input-text-2 {
-  position: absolute;
-  font-size: 70px;
-  left: 50px;
-  bottom: 375px;
-}
-.input-text-3 {
-  position: absolute;
-  font-size: 70px;
-  left: 50px;
-  bottom: 250px;
-}
-.input-text-4 {
-  position: absolute;
-  font-size: 70px;
-  left: 50px;
-  bottom: 125px;
-}
-.input-text-5 {
-  position: absolute;
-  font-size: 70px;
-  left: 50px;
-  bottom: 0px;
+  top: 5%;
+  left: 40%;
+  background-color: aqua;
 }
 
-#timer {
-  text-align: center;
-  font-size: 50px;
-}
-
-#game-result {
-  font-size: 70px;
+.imageGuesser-button {
   position: absolute;
-  left: 900px;
-  bottom: 30px;
-}
-
-.home-button {
-  position: absolute;
-  left: 900px;
-  width: 250px;
-  height: 70px;
-  bottom: 430px;
-  visibility: hidden;
+  top: 5%;
+  left: 50%;
+  background-color: aqua;
 }
