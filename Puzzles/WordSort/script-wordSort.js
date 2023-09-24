@@ -197,8 +197,6 @@ function loadWordSort(){
                 words[j] = words[j + 1];
                 words[j + 1] = tempW;
                 swapped = true;
-                console.log("Spots: " + spots);
-            console.log("Words: " + words);
             }
         }
         if (swapped == false){
@@ -206,8 +204,6 @@ function loadWordSort(){
         }
     }
     let correct = true;
-    console.log("WordsSorted: " + wordsSorted);
-    console.log("Words after: " + words);
     // checks if words are alphabetical
     for(let i=0; i<5;i++){
       if(wordsSorted[i]!=words[i]){
