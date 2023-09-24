@@ -1,1 +1,3 @@
 Images/big-mac.jpg
+Images/light-yagami.jpg
+Images/instagram.png

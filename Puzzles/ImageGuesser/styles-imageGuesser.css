@@ -8,5 +8,12 @@ html, body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 30px;
     width: 500px;
+    height: 400px;
+}
+
+#image-text {
+    font-size: 70px;
+    text-align: center;
 }
