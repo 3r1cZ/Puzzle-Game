@@ -182,20 +182,32 @@ function loadWordSort(){
   // checks if the spots are sorted in alphabetical order
   function checkAlphabetical(spots, words){
     wordsSorted = wordOutput.sort();
-    // sort spots to go from top to bottom
-    for(let i=0; i<5; i++){
-        for(let j=1; j<6; j++){
-          if(spots[i] ==j){
-            let temp = spots[j-1];
-            spots[j-1] = spots[i];
-            spots[i] = temp;
-            let tempW = words[j-1];
-            words[j-1] = words[i];
-            words[i] = tempW;
-          }
+    // bubble sort
+    let i, j, temp, tempW;
+    let swapped;
+    for (i = 0; i < spots.length - 1; i++){
+        swapped = false;
+        for (j = 0; j < spots.length - 1; j++){
+            if (spots[j] > spots[j + 1]){
+                // Swap spots and words
+                temp = spots[j];
+                spots[j] = spots[j + 1];
+                spots[j + 1] = temp;
+                tempW = words[j];
+                words[j] = words[j + 1];
+                words[j + 1] = tempW;
+                swapped = true;
+                console.log("Spots: " + spots);
+            console.log("Words: " + words);
+            }
         }
-      }
+        if (swapped == false){
+          break;
+        }
+    }
     let correct = true;
+    console.log("WordsSorted: " + wordsSorted);
+    console.log("Words after: " + words);
     // checks if words are alphabetical
     for(let i=0; i<5;i++){
       if(wordsSorted[i]!=words[i]){
