@@ -26,9 +26,13 @@ function displayCaption(text) {
     let captionText = textArr[randomImageNum];
     captionText = captionText.replace(/[\r\n]+/gm, "");
     let numLetters = captionText.length;
-    let underlines = '';
     for(let i=0; i<numLetters; i++){
-        underlines = underlines.concat(" _");
+        const input = document.createElement("input");
+        input.setAttribute('type', 'text');
+        input.setAttribute('maxlength', 1);
+        input.setAttribute('placeholder', '_');
+        input.setAttribute('id', 'image-text');
+        const captionDiv = document.getElementById("image-text-container");
+        captionDiv.appendChild(input);
     }
-    document.getElementById("image-text").textContent = underlines;
 }
