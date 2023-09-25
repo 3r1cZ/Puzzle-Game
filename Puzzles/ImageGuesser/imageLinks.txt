@@ -2,3 +2,5 @@ Images/big-mac.jpg
 Images/light-yagami.jpg
 Images/instagram.png
 Images/pineapple.jpg
+Images/windows.jpg
+Images/apple-fruit.jpg

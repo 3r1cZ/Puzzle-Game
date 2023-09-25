@@ -1,6 +1,8 @@
 let randomImageNum;
 
 function loadImageGuesser() {
+    display = document.querySelector('#timer');
+    startTimer(20, display);
     getText('imageLinks.txt')
     .then(image => getImage(image));
     getText('imageText.txt')
@@ -50,5 +52,44 @@ function moveInput(){
                 field.nextElementSibling.focus();
             }
         });
+        //allow the user to move left and right with arrow keys
+        field.addEventListener( 'keydown', ( event ) => {
+            if(event.key == "ArrowLeft" && field.previousElementSibling && (!field.value || field.selectionStart == 0)){
+                field.previousElementSibling.focus();
+            }
+            if(event.key == "ArrowRight" && field.nextElementSibling && (!field.value || field.selectionEnd)){
+                field.nextElementSibling.focus();
+            }
+        });
     }
+}
+
+// check if input is correct after submitting
+function checkAnswer(){
+
+}
+
+let intervalID; // stores interval function
+// timer countdown
+function startTimer(duration, display) {
+    var timer = duration, minutes, seconds;
+    intervalID = setInterval(function () {
+        minutes = parseInt(timer / 60, 10);
+        seconds = parseInt(timer % 60, 10);
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        display.textContent = minutes + ":" + seconds;
+
+        if (--timer < 0) {
+            timer = 0;
+            stopTimer();
+        }
+    }, 1000);
+}
+
+function stopTimer(){
+    clearInterval(intervalID);
+    intervalID = null;
 }
