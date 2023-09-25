@@ -60,6 +60,11 @@ function moveInput(){
             if(event.key == "ArrowRight" && field.nextElementSibling && (!field.value || field.selectionEnd)){
                 field.nextElementSibling.focus();
             }
+            // allow backspace to act as a left arrow key if the input field is empty
+            if(event.key == "Backspace" && field.previousElementSibling && !field.value){
+                event.preventDefault();
+                field.previousElementSibling.focus();
+            }
         });
     }
 }
