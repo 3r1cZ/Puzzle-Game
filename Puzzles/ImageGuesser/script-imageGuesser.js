@@ -1,4 +1,5 @@
 let randomImageNum;
+let answer;
 
 function loadImageGuesser() {
     display = document.querySelector('#timer');
@@ -29,6 +30,7 @@ function displayCaption(text) {
     let textArr = text.split("\n");
     let captionText = textArr[randomImageNum];
     captionText = captionText.replace(/[\r\n]+/gm, "");
+    answer = captionText;
     let numLetters = captionText.length;
     for(let i=0; i<numLetters; i++){
         const input = document.createElement("input");
@@ -71,7 +73,16 @@ function moveInput(){
 
 // check if input is correct after submitting
 function checkAnswer(){
-
+    let captionDiv = document.getElementById("image-text-container");
+    let i = 0; 
+    let correct = true;
+    for(let field of captionDiv.children) {
+        if(answer[i] != field.value){
+            correct = false;
+        }
+        i++;
+    }
+    console.log(correct);
 }
 
 let intervalID; // stores interval function
