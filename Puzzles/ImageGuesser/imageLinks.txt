@@ -33,3 +33,15 @@ Images/shadow.png
 Images/rengoku.jpg
 Images/eatsuki.gif
 Images/teemo.jpg
+Images/lionel-messi.jpg
+Images/elon-musk.jpg
+Images/jett.jpg
+Images/cristiano-ronaldo.jpg
+Images/new-zealand.jpg
+Images/australia.jpg
+Images/slack.jpg
+Images/yoasobi.jpg
+Images/gojo.jpg
+Images/mitochondrion.jpeg
+Images/pascal's-triangle.jpg
+Images/masahiro-sakurai.jpeg

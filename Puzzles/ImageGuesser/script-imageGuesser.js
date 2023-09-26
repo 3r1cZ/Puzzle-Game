@@ -21,6 +21,7 @@ async function getText(file) {
 function getImage(image) {
     let imageArr = image.split("\n"); // convert text string to array
     randomImageNum = Math.floor(Math.random() * imageArr.length);
+    randomImageNum = 46;
     let randomImageLink = imageArr[randomImageNum];
     document.getElementById("image").src = randomImageLink;
 }
