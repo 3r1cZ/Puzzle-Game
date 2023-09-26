@@ -4,16 +4,23 @@ html, body {
   margin: 0;
 }
 
-.wordSort-button {
+#wordSort-button {
   position: absolute;
   top: 5%;
-  left: 40%;
+  left: 30%;
   background-color: aqua;
 }
 
-.imageGuesser-button {
+#imageGuesser-button {
   position: absolute;
   top: 5%;
-  left: 50%;
+  left: 44%;
+  background-color: aqua;
+}
+
+#mazeSolver-button {
+  position: absolute;
+  top: 5%;
+  left: 60%;
   background-color: aqua;
 }

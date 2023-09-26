@@ -77,14 +77,25 @@ function moveInput(){
 // places a letter every set interval
 function giveHint(){
     let captionDiv = document.getElementById("image-text-container");
-    let randomNum = Math.floor(Math.random() * captionDiv.children.length);
-    let field = captionDiv.children[randomNum];
-    // if the spot is already taken, choose another one
-    while(field.value){
-        randomNum = Math.floor(Math.random() * captionDiv.children.length);
-        field = captionDiv.children[randomNum];
+    let filled = false;
+    // check if all spots are already filled
+    for(input of captionDiv.children){
+        if(!input.value){
+            filled = false;
+            break;
+        }
+        filled = true;
     }
-    field.value = answer[randomNum];
+    if(!filled){
+        let randomNum = Math.floor(Math.random() * captionDiv.children.length);
+        let field = captionDiv.children[randomNum];
+        // if the spot is already taken, choose another one
+        while(field.value){
+            randomNum = Math.floor(Math.random() * captionDiv.children.length);
+            field = captionDiv.children[randomNum];
+        }
+        field.value = answer[randomNum];
+    }
 }
 
 // check if input is correct after submitting and display end screen
