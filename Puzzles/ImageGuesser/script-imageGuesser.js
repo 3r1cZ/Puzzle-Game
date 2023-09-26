@@ -73,16 +73,30 @@ function moveInput(){
 
 // check if input is correct after submitting
 function checkAnswer(){
+    stopTimer();
     let captionDiv = document.getElementById("image-text-container");
     let i = 0; 
     let correct = true;
     for(let field of captionDiv.children) {
-        if(answer[i] != field.value){
+        if(answer[i] != field.value.toLowerCase()){
             correct = false;
         }
         i++;
     }
-    console.log(correct);
+
+    if(correct){
+        document.getElementById("game-result").textContent = "Correct!";
+      }else{
+        document.getElementById("game-result").textContent = "Incorrect!";
+    }
+    document.querySelector(".home-button").style.visibility = "visible"; // display home button
+    // disable input fields
+    for(let field of captionDiv.children) {
+        field.readOnly = true;
+    }
+    // disable button
+    if(!document.getElementById("submit-button").getAttribute("disabled"))
+        document.getElementById("submit-button").disabled = true;
 }
 
 let intervalID; // stores interval function

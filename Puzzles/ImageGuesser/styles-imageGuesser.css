@@ -38,3 +38,20 @@ html, body {
     background-color: aqua;
     border-radius: 10px;
 }
+
+#game-result {
+    font-size: 70px;
+    position: absolute;
+    left: 1100px;
+    bottom: 30px;
+}
+
+.home-button {
+    position: absolute;
+    left: 1100px;
+    width: 250px;
+    height: 70px;
+    bottom: 430px;
+    visibility: hidden;
+    background-color: aqua;
+  }
