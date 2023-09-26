@@ -21,7 +21,13 @@ The player must sort a random set of words based on a given criteria. For exampl
 
 ### Maze Solving
 The player will be given a random maze and must find a path from one end to the other. Bonus points are awarded if the shortest path is found.
+* Points:
+
 ### Image Guessing
 An image will be displayed to the player with underlines underneath displaying the number of letters. After each designated time interval, a letter will be revealed, lowering the number of points awarded for guessing the image correctly.
+* Points:
+
 ### Trivia
 A trivia question will be asked and the player will have 4 multiple choice options to choice from.
+* Points:
+
