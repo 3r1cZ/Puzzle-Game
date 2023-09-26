@@ -74,6 +74,19 @@ function moveInput(){
     }
 }
 
+// places a letter every set interval
+function giveHint(){
+    let captionDiv = document.getElementById("image-text-container");
+    let randomNum = Math.floor(Math.random() * captionDiv.children.length);
+    let field = captionDiv.children[randomNum];
+    // if the spot is already taken, choose another one
+    while(field.value){
+        randomNum = Math.floor(Math.random() * captionDiv.children.length);
+        field = captionDiv.children[randomNum];
+    }
+    field.value = answer[randomNum];
+}
+
 // check if input is correct after submitting and display end screen
 function checkAnswer(){
     stopTimer();
@@ -114,6 +127,10 @@ function startTimer(duration, display) {
         seconds = seconds < 10 ? "0" + seconds : seconds;
 
         display.textContent = minutes + ":" + seconds;
+
+        if (timer%8 == 0){
+            giveHint();
+        }
 
         if (--timer < 0) {
             timer = 0;
