@@ -67,6 +67,9 @@ function moveInput(){
                 event.preventDefault();
                 field.previousElementSibling.focus();
             }
+            if(event.key == "Enter"){
+                checkAnswer();
+            }
         });
     }
 }

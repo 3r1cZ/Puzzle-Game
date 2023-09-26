@@ -5,3 +5,9 @@ Images/pineapple.jpg
 Images/windows.jpg
 Images/apple-fruit.jpg
 Images/rick-astley.jpg
+Images/frieza.jpg
+Images/zoro.jpg
+Images/geto.jpg
+Images/kobe-bryant.jpg
+Images/groot.jpg
+Images/mordekaiser.jpg
