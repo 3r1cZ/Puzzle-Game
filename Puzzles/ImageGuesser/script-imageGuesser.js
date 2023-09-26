@@ -21,7 +21,6 @@ async function getText(file) {
 function getImage(image) {
     let imageArr = image.split("\n"); // convert text string to array
     randomImageNum = Math.floor(Math.random() * imageArr.length);
-    randomImageNum = 46;
     let randomImageLink = imageArr[randomImageNum];
     document.getElementById("image").src = randomImageLink;
 }
@@ -75,7 +74,7 @@ function moveInput(){
     }
 }
 
-// check if input is correct after submitting
+// check if input is correct after submitting and display end screen
 function checkAnswer(){
     stopTimer();
     let captionDiv = document.getElementById("image-text-container");
@@ -119,6 +118,7 @@ function startTimer(duration, display) {
         if (--timer < 0) {
             timer = 0;
             stopTimer();
+            checkAnswer();
         }
     }, 1000);
 }
