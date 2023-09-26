@@ -139,7 +139,7 @@ function startTimer(duration, display) {
 
         display.textContent = minutes + ":" + seconds;
 
-        if (timer%8 == 0){
+        if (timer%8 == 0 && timer != 0){
             giveHint();
         }
 

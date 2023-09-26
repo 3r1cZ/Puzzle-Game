@@ -46,3 +46,15 @@ Images/mitochondrion.jpeg
 Images/pascal's-triangle.jpg
 Images/masahiro-sakurai.jpeg
 Images/google-drive.png
+Images/illaoi.png
+Images/lightning-mcqueen.jpg
+Images/wall-e.jpg
+Images/buzz-lightyear.jpg
+Images/stuart.jpg
+Images/baymax.png
+Images/hoshimachi-suisei.png
+Images/chatgpt.jpg
+Images/gigguk.jpg
+Images/neuro-sama.jpg
+Images/gavel.jpg
+Images/karma.jpg

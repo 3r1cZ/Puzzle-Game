@@ -110,6 +110,7 @@ function dragElement(elmnt) {
   function closeDragElement() {
     document.onmouseup = null;
     document.onmousemove = null;
+    // putting the elements into the input spots
     if(isOverlapping(elmnt, document.getElementById("input1"))){
       elmnt.style.left = "102px";
       elmnt.style.top = "-18px";
