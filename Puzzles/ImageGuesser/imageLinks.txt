@@ -58,3 +58,11 @@ Images/gigguk.jpg
 Images/neuro-sama.jpg
 Images/gavel.jpg
 Images/karma.jpg
+Images/john-a-macdonald.jpg
+Images/drake.jpg
+Images/sushi.jpg
+Images/croissant.jpg
+Images/lebron-james.jpg
+Images/plum.jpg
+Images/north-korea.jpg
+Images/camel.jpg
