@@ -6,21 +6,42 @@ html, body {
 
 #wordSort-button {
   position: absolute;
-  top: 5%;
+  top: 10%;
   left: 30%;
   background-color: aqua;
 }
 
 #imageGuesser-button {
   position: absolute;
-  top: 5%;
+  top: 10%;
   left: 44%;
   background-color: aqua;
 }
 
 #mazeSolver-button {
   position: absolute;
-  top: 5%;
+  top: 10%;
+  left: 60%;
+  background-color: aqua;
+}
+
+#trivia-button {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  background-color: aqua;
+}
+
+#buttonMasher-button {
+  position: absolute;
+  top: 20%;
+  left: 44%;
+  background-color: aqua;
+}
+
+#buttonChaser-button {
+  position: absolute;
+  top: 20%;
   left: 60%;
   background-color: aqua;
 }
