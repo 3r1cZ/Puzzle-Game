@@ -14,6 +14,8 @@ This section provides information regarding each puzzle to be implemented into t
 * [Maze Solving](#maze-solving)
 * [Image Guessing](#image-guessing)
 * [Trivia](#trivia)
+* [Button Mashing](#button-mashing)
+* [Button Chasing](#button-chasing)
 
 ### Word Sorting
 The player must sort a random set of words based on a given criteria. For example, the player may be asked to sort the words in alphabetical order.
@@ -31,3 +33,10 @@ An image will be displayed to the player with underlines underneath displaying t
 A trivia question will be asked and the player will have 4 multiple choice options to choice from.
 * Points:
 
+### Button Mashing
+The player must click a button as much as possible within the given time frame.
+* Points:
+
+### Button Chasing
+A button will be displayed somewhere on the screen. After being clicked by the player, it will reappear in a new location. The player must click these reappearing buttons as many times as they can to earn points.
+* Points:
