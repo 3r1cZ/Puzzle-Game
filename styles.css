@@ -9,6 +9,7 @@ html, body {
   top: 10%;
   left: 30%;
   background-color: aqua;
+  cursor: pointer;
 }
 
 #imageGuesser-button {
@@ -16,6 +17,7 @@ html, body {
   top: 10%;
   left: 44%;
   background-color: aqua;
+  cursor: pointer;
 }
 
 #mazeSolver-button {
@@ -23,6 +25,7 @@ html, body {
   top: 10%;
   left: 60%;
   background-color: aqua;
+  cursor: pointer;
 }
 
 #trivia-button {
@@ -30,6 +33,7 @@ html, body {
   top: 20%;
   left: 30%;
   background-color: aqua;
+  cursor: pointer;
 }
 
 #buttonMasher-button {
@@ -37,6 +41,7 @@ html, body {
   top: 20%;
   left: 44%;
   background-color: aqua;
+  cursor: pointer;
 }
 
 #buttonChaser-button {
@@ -44,4 +49,5 @@ html, body {
   top: 20%;
   left: 60%;
   background-color: aqua;
+  cursor: pointer;
 }

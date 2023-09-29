@@ -5,8 +5,11 @@
         <link rel="stylesheet" href="styles-buttonChaser.css">
         <script src="script-buttonChaser.js"></script>
     </head>
-    <body>
+    <body onload="loadButtonChaser();">
         <noscript>Sorry, your browser does not support JavaScript!</noscript>
-        
+        <p id="timer">0:00</p>
+        <p id="clickCount">Clicks: 0</p>
+        <button id="buttonChased" onclick="clicked();">CLICK ME</button>
+        <button class="home-button" onclick="document.location='../../index.html'">Return to Home Screen</button>
     </body>
 </html>

@@ -37,6 +37,7 @@ html, body {
     margin-top: 2.5%;
     background-color: aqua;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 #game-result {
@@ -54,4 +55,5 @@ html, body {
     bottom: 430px;
     visibility: hidden;
     background-color: aqua;
+    cursor: pointer;
   }
