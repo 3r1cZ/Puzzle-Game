@@ -38,18 +38,18 @@ Jupiter/Saturn/Neptune/Uranus
 Saturn/Jupiter/Uranus/Neptune
 Mercury/Venus/Earth/Mars
 Pluto/Neptune/Uranus/Earth
-Winston Churchill
-Botany
-Marathon
-Russia
-Helsinki
-Berlin
-Tokyo
-Ottawa
-London
-Paris
-Canberra
-Wellington
+Winston Churchill/Boris Johnson/Neville Chamberlain/Anthony Eden
+Botany/Biology/Entomology/Ornithology
+Marathon/Triathlon/Sprint/Biathlon
+Russia/Canada/United States/China
+Helsinki/Oslo/Reykjavík/Stockholm
+Berlin/Cologne/Brussels/Amsterdam
+Tokyo/Osaka/Kyoto/Beijing
+Ottawa/Toronto/Vancouver/Montreal
+London/Dublin/Birmingham/Glasgow
+Paris/Lyon/Marseille/Nice
+Canberra/Sydney/Perth/Melbourne
+Wellington/Auckland/Queenstown/Christchurch
 Brussels
 Oslo
 Rome
