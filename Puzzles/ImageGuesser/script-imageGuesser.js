@@ -6,8 +6,10 @@ function loadImageGuesser() {
     startTimer(20, display);
     getText('imageLinks.txt')
     .then(image => getImage(image));
-    getText('imageText.txt')
-    .then(displayCaption);
+    setTimeout(function() {
+        getText('imageText.txt')
+        .then(displayCaption);
+      }, 50);
 }
 
 // read files
