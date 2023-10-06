@@ -50,7 +50,7 @@ London/Dublin/Birmingham/Glasgow
 Paris/Lyon/Marseille/Nice
 Canberra/Sydney/Perth/Melbourne
 Wellington/Auckland/Queenstown/Christchurch
-Brussels
+Brussels/Berlin/Amsterdam/Ghent
 Oslo
 Rome
 Beijing

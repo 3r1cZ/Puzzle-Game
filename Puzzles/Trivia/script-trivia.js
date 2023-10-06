@@ -28,7 +28,7 @@ function displayChoices(choices) {
     let choicesArr = choices.split("\n"); // list of all answers
     let choice = choicesArr[questionIndex]; // choices matching question
     let choiceSplit = choice.split("/"); // splitting choices into four
-    var i = choiceSplit.length,
+    let i = choiceSplit.length,
         j = 0,
         temp;
 
