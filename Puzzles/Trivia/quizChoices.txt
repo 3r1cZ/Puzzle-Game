@@ -51,129 +51,120 @@ Paris/Lyon/Marseille/Nice
 Canberra/Sydney/Perth/Melbourne
 Wellington/Auckland/Queenstown/Christchurch
 Brussels/Berlin/Amsterdam/Ghent
-Oslo
-Rome
-Beijing
-Bangkok
-Brasilia
-Mexico c=City
-Warsaw
-Budapest
-New Delhi
-Jakarta
-Vienna
-Madrid
-Moscow
-Kyiv
-Prague
-Lemonade
-John Cena
-Tiktok
-Valorant
-Asia
-McMaster
-Ryerson
-Western
-Sudbury
-YouTube
-Facebook
-Netflix
-Google
-Microsoft
-Python
-Love is War
-Gintama
-Brain
-Heart
-Lungs
-Outlook
-Zoom
-4
-Gordon Ramsay
-Mandarin
-Assistance
-Leap Year
-Paris
-Beijing
-Thumb
-Index
-Middle
-Ring
-Pinky
-Europe
-Africa
-Asia
-Oceania
-Oceania
-Asia
-Africa
-Europe
-South America
-North America
-South America
-Europe
-Africa
-Africa
-Asia
-Africa
-South America
-Africa
-Europe
-North America
-South America
-Carolina Reaper
-Shoulder
-5 foot 9
-Experience
-United
-Justin Trudeau
-Pearson
-Red
-Meta
-Alphabet
-Maple
-Beaver
-O Canada
-The Star-spangled Banner
-Keyboard
-French
-Minecraft
-Nintendo
-Zelda
-Arcane
-Vegetables
-London
-10
-Nunavut
-Manitoba
-Alaska
-Green
-Greenbelt
-Pacific
-Newton and Leibniz
-Iron Man
-Three
-Six
-Three
-Egyptian
-Tanjiro Kamado
-Kaguya Shinomiya
-Toronto Raptors
-Lebron James
-Oracle
-Richter
-Immune Deficiency Foundation
-Motherboard
-Steeles Avenue
-Pachinko
-Townhouse
-Family Day
-St. Patrick's Day
-Surfing
-1945
-California
-Cretaceous
-Stephen Harper
+Oslo/Helsinki/Reykjavík/Stockholm
+Rome/Florence/Sicily/Venice
+Beijing/Shanghai/Chengdu/Guangzhou
+Bangkok/Manila/Jakarta/Ho Chi Minh City
+Brasilia/Rio de Janeiro/São Paulo/Salvador
+Mexico City/Cancún/Tulum/Acapulco
+Warsaw/Vienna/Budapest/Bucharest
+Budapest/Vienna/Warsaw/Bucharest
+New Delhi/Mumbai/Chennai/Goa
+Jakarta/Manila/Bangkok/Ho Chi Minh City
+Vienna/Warsaw/Budapest/Bucharest
+Madrid/Barcelona/Seville/Valencia
+Moscow/Saint Petersburg/Kaliningrad/Kazan
+Kyiv/Kharkiv/Odesa/Dnipro
+Prague/Warsaw/Budapest/Bucharest
+Lemonade/Money/Lunch/Oranges
+John Cena/Dwayne Johnson/Jackie Chan/Bruce Lee
+Tiktok/Instagram/Facebook/X
+Valorant/Apex Legends/Overwatch/League of Legends
+Asia/Europe/North America/South America
+McMaster/Western/Queen's/York
+Ryerson/University of Toronto/York/Victoria
+Western/McMaster/Queen's/York
+Sudbury/Thunder Bay/Niagara Falls/Barrie
+YouTube/Twitch/WeChat/Discord
+Facebook/Florida/Ferrari/Fast
+Netflix/Next/Nexus/Narrow
+Google/God/Game/Gene
+Microsoft/Apple/HP/Lenovo
+Python/Pascal/Paradigm/Presto
+Love is War/Fruits Basket/A Silent Voice/Clannad
+Gintama/Love is War/Owarimonogatari/Bocchi the Rock!
+Brain/Heart/Lungs/Skin
+Heart/Lungs/Brain/Skin
+Lungs/Heart/Brain/Skin
+Outlook/Gmail/Mailbird/Mailspring
+Zoom/Zest/Zade/Zing
+4/3/2/1
+Gordon Ramsay/Guy Fieri/Michael Caines/Bobby Flay
+Mandarin/English/Spanish/French
+Assistance/Academic/Answer/Application
+Leap Year/Solstice/Blue Moon/Meteor Shower
+Paris/Tokyo/Beijing/New York
+Beijing/Tokyo/Paris/New York
+Thumb/Index/Ring/Pinky
+Index/Ring/Middle/Thumb
+Middle/Pinky/Index/Ring
+Ring/Index/Middle/Pinky
+Pinky/Ring/Thumb/Index
+Europe/South America/Africa/Asia
+Africa/Europe/South America/Asia
+Asia/Europe/Africa/South America
+Oceania/Europe/South America/Africa
+Oceania/North America/South America/Asia
+Asia/Europe/South America/North America
+Africa/Europe/Asia/South America
+Europe/Africa/South America/Oceania
+South America/Europe/Africa/North America
+North America/Africa/South America/Oceania
+South America/North America/Africa/Europe
+Europe/North America/Africa/Asia
+Africa/Europe/Asia/South America
+Africa/Europe/North America/South America
+Asia/Europe/Africa/South America
+Africa/Oceania/South America/North America
+South America/Oceania/Africa/Europe
+Africa/Europe/South America/Asia
+Europe/Asia/Africa/South America
+North America/South America/Africa/Europe
+South America/North America/Europe/Africa
+Shoulder/Anus/Belly/Leg
+5 foot 9/5 foot 6/5 foot 7/5 foot 8
+Experience/Engagement/Excitement/Engineering
+United/Universal/Understanding/Upper
+Justin Trudeau/Stephen Harper/Paul Martin/John A. Macdonald
+Pearson/Pierre Elliot Trudeau/John A. Macdonald/Alexander Mackenzie
+Red/Yellow/Orange/Blue
+Meta/Alphabet/X/Instagram
+Alphabet/Meta/X/Instagram
+Maple/Oak/Chestnut/Beech
+Beaver/Moose/Raccoon/Owl
+O Canada/God Save the King/The Star-Spangled Banner/La Marseillaise
+The Star-Spangled Banner/O Canada/God Save the King/La Marseillaise
+French/Spanish/German/Welsh
+Minecraft/Tetris/Grand Theft Auto V/Super Mario Bros.
+Nintendo/Sony/Sega/OLM
+Zelda/Mario/Artemis/Link
+Arcane/One Piece/Comet/Inspiration
+London/Hamilton/Kingston/Toronto
+10/13/9/14
+Nunavut/Yukon/Northwest Territories/Newfoundland and Labrador
+Alaska/California/New York/Nebraska
+Greenbelt/Greenzone/Greenspace/Greenshoe
+Pacific/Atlantic/Arctic/Indian
+Newton and Leibniz/Newton and Einstein/Einstein and Gauss/Pythagoras and Gauss
+Iron Man/Captain America/Thor/Hulk
+Three/Two/One/Thirteen
+Six/Seven/Eight/Nine
+Three/Two/Four/Five
+Egyptian/Chinese/Arabic/Latin
+Tanjiro Kamado/Satoru Gojo/Izuku Midoriya/Eren Jaeger
+Kaguya Shinomiya/Ai Hayasaka/Chika Fujiwara/Kei Shirogane
+Toronto Raptors/Golden State Warriors/Los Angeles Lakers/Milwaukee Bucks
+Lebron James/Michael Jordan/Stephen Curry/Kareem Abdul-Jabbar
+Oracle/Windows/Sony/Google
+Richter/Ordinal/Nominal/Interval
+Immune Deficiency Foundation/Israel Defense Forces/International Disease Foundation/Intermediate Dieting Foundation
+Motherboard/Central Processing Unit/Power Supply Unit/Graphics Card
+Family Day/Valentine's Day/Groundhog Day/Victoria Day
+St. Patrick's Day/Groundhog Day/Family Day/Good Friday
+1945/1944/1943/1946
+California/Nevada/New York/Washington
+Cretaceous/Jurassic/Triassic/Paleozoic
+Stephen Harper/Paul Martin/John A. Macdonald/Justin Trudeau
 Newfoundland and Labrador
 Rolex
 White house

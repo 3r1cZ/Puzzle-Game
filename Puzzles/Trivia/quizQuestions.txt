@@ -52,7 +52,7 @@ What is the capital of Australia?
 What is the capital of New Zealand?
 What is the capital of Belgium?
 What is the capital of Norway?
-What is the capital of italy?
+What is the capital of Italy?
 What is the capital of China?
 What is the capital of Thailand?
 What is the capital of Brazil?
@@ -71,7 +71,7 @@ Who said the iconic phrase "Bing Chilling"?
 Which social media platform is owned by Chinese company ByteDance?
 What is the FPS game developed by Riot Games?
 What is the largest continent in the world?
-Which university is located in Hamilton?
+Which university is located in Hamilton, Ontario?
 What is the previous name of Toronto Metropolitan University?
 Which university is located in London, Ontario?
 What city is Laurentian University located?
@@ -81,14 +81,14 @@ What is the N in FAANG?
 What is the G in FAANG?
 What is the company that developed Windows operating system?
 What is the most popular programming language starting with P?
-What is the highest-rated romance anime on MAL?
-What is the highest-rated comedy anime on MAL?
+What is the highest-rated romance anime series on MAL? (as of 10/23)
+What is the highest-rated comedy anime series on MAL?
 What organ is the body's control center?
 What organ pumps blood through the body?
 What organ extracts oxygen from the air?
 What is the new name of Hotmail?
 What is the most popular video conferencing software starting with Z?
-How many chambers does the heart have? (use numbers)
+How many chambers does the heart have?
 Who is the celebrity British chef known for hurling brutal insults?
 What is the second-most spoken language in the world?
 What does the A in OSAP stand for?
@@ -121,9 +121,8 @@ What continent is Niger located in?
 What continent is Belarus located in?
 What continent is Cuba located in?
 What continent is Uruguay located in?
-What is the spiciest pepper in the world?
 Which body part is pork butt actually from?
-What is the average height of a male in the US? (number foot number)
+What is the average height of a male in the US?
 What does the E in FSWEP stand for?
 What does the U in USA stand for?
 Who became prime minister of Canada in 2015?
@@ -135,42 +134,34 @@ What type of leaf is in the Canadian flag?
 What is the official animal of Canada?
 What is the name of the national anthem of Canada?
 What is the name of the national anthem of USA?
-What is the name of the device used to type words on a computer?
 What is the second national language of Canada after English?
 What is the best-selling video game in the world?
 What company developed Super Mario Bros.?
 Fill in the blank: The Legend of ____: Breath of the Wild
 What is the animated Netflix show based on League of Legends called?
-Are carrots fruits or vegetables?
 Which city in Ontario was Justin Bieber born in?
 How many provinces are there in Canada? (number)
 What is the northernmost territory in Canada?
-Which province/territory in Canada begins with the letter M?
 What is the name of the US state situated to the west of Canada?
-Which Canadian political party was Elizabeth May the leader of?
 What is the protected green space of Southern Ontario known as? (also referred to as Golden Horseshoe)
 What is the largest ocean in the world?
-Which two mathematicians invented calculus? (Hint: starts with N and L. Write it like this: 'lastName1 and lastName2')
+Which two mathematicians invented calculus?
 Which superhero defeated Thanos in Avengers: Endgame?
-What does the prefix 'tri' mean? (write the cardinal word, ex: 'one')
-What does the prefix 'sexa' mean? (write the cardinal word, ex: 'one')
-According to OSAP, how many courses counts as a full course load? (write the cardinal word, ex: 'one')
+What does the prefix 'tri' mean?
+What does the prefix 'sexa' mean?
+According to OSAP, how many courses counts as a full course load?
 What is the oldest language in the world based on the first written account?
-Who is the main protagonist of Demon Slayer? (full name)
-Who is the main female protagonist of Kaguya-sama: Love is War? (full name)
+Who is the main protagonist of Demon Slayer?
+Who is the main female protagonist of Kaguya-sama: Love is War?
 Which team won the NBA championship in 2019?
 Who is the all-time NBA leading scorer?
 Which corporation owns the Java programming language?
 What is the earthquake strength measurement scale called?
 What charity does the IDF stand for?
 What is the main circuit board in a computer?
-What street separates Markham and Scarborough in Toronto?
-What is the arcade gambling game popular in Japan?
-What is a house that is narrow and attached to other houses by shared walls?
 What holiday is celebrated on the third monday of February in most parts of Canada?
 What green holiday is celebrated on March 17th every year?
-What is the water sport where an individual rides a board on a moving wave?
-What year did World War II end? (put a number: ie. 1111)
+What year did World War II end?
 Which state is Los Angeles located in?
 What is the name of the final geological period of the Mesozoic Era (age of dinosaurs)?
 Who was the Canadian prime minister from 2006 to 2015?
