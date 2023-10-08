@@ -171,38 +171,38 @@ White house/24 Sussex/Capitol Building/House of Commons
 Paramount Pictures/Universal Pictures/Warner Bros. Pictures/Columbia Pictures
 Mole/Candela/Kilogram/Ampere
 Alan Walker/Skrillex/DJ Snake/Major Lazer
-Euler's Number
-Oceangate
-Butterfly
-Italy
-Role-playing Game
-Niagara Falls
-Justin Bieber
-Renaissance
-Argentina
-Pyeongchang
-Wumpus
-To Kill A Mockingbird
-Visual Novel
-Denmark
-Estonia
-Hungary
-Vatican City
-Vietnam
-Yemen
-Delaware
-Florida
-Georgia
-Hawaii
-Louisiana
-Pennsylvania
-Rhode Island
-Utah
-Puerto Rico
-London
-Senate
-Beethoven
-Wolfgang
+Euler's Number/Euro/Estimated Sign/Eni
+Oceangate/Watergate/Titanicgate/Hydrogate
+Butterfly/Bee/Moth/Peacock
+Italy/Russia/Poland/France
+Role-Playing Game/Report Program Generator/Rocket-Propelled Grenade/Random Paradigm Gaming
+Niagara Falls/Angel Falls/Victoria Falls/Tugela Falls
+Justin Bieber/Shawn Mendes/Drake/Celine Dion
+Modern Era/Classical Antiquity/Prehistoric Europe/Roman Imperial Period
+Argentina/Portugal/Brazil/Uruguay
+Pyeongchang/Seoul/Busan/Pyongyang
+Wumpus/Larry/Stan/Snoo
+To Kill A Mockingbird/The Age of Innocence/Divergent/One Hundred Years of Solitude
+Visual Novel/Multiplayer Online Battle Arena/Massively Multiplayer Online Role-Playing Game/Turn-Based Strategy
+Denmark/Dominican Republic/Dominica/Djibouti
+Estonia/Ecuador/El Salvador/Eritrea
+Hungary/Haiti/Honduras/Hanoi
+Vatican City/Vietnam/Venezuela/Vanuatu
+Vietnam/Vatican City/Venezuela/Vanuatu
+Yemen/Yarmouth/Yichun/Yauco
+Delaware/Dallas/Denver/Detroit
+Florida/Fresno/Fremont/Fontana
+Georgia/Garland/Greensboro/Glendale
+Hawaii/Houston/Henderson/Hollywood
+Louisiana/Las Vegas/Lost Angeles/Louisville
+Pennsylvania/Pittsburgh/Philadelphia/Portland
+Rhode Island/Raleigh/Richmond/Rochester
+Utah/Upland/Urbana/Utica
+Puerto Rico/Panama/Peru/Paraguay
+London/Beijing/Rio de Janeiro/Tokyo
+Senate/House of Representatives/Supreme Court/Governor
+Ludwig van Beethoven/Wolfgang Amadeus Mozart/Johann Sebastian Bach/George Frideric Handel
+Wolfgang/Amadeus/Ludwig/Johann
 Claustrophobia
 Gene
 Sazae-san
