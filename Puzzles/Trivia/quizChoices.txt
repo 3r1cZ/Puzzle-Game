@@ -203,10 +203,12 @@ London/Beijing/Rio de Janeiro/Tokyo
 Senate/House of Representatives/Supreme Court/Governor
 Ludwig van Beethoven/Wolfgang Amadeus Mozart/Johann Sebastian Bach/George Frideric Handel
 Wolfgang/Amadeus/Ludwig/Johann
-Claustrophobia
-Gene
-Sazae-san
-Dalhousie
+Claustrophobia/Chronophobia/Dendrophobia/Heliophobia
+Gymnophobia/Nyctophobia/Belonephobia/Porphyrophobia
+Gephyrophobia/Belonephobia/Diagraphephobia/Ergophobia
+Gene/Atom/Chromosome/Kilogram
+Sazae-san/One Piece/Doraemon/Crayon Shin-chan
+Dalhousie/Dartmouth/Davenport/Davis
 Louis XVI
 Monopoly
 Leviathan
