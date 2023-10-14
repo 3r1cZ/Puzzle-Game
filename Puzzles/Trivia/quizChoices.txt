@@ -223,13 +223,13 @@ William/Louis/Charles/Henry
 Nitrogen/Oxygen/Carbon/Argon
 Home Alone/Fast & Furious/Die Hard/Mission: Impossible
 Indonesia/Japan/United States/Russia
-Outsourcing
-Ibuprofen
-Anatomy
-Fibonacci
-Jaywalking
-Greenland
-Pokemon GO
+Outsourcing/Construction/In-house/Freelancing
+Ibuprofen/Inhaler/Naloxone/Laxatives
+Anatomy/Entomology/Botany/Ornithology
+Fibonacci/Taylor/Maclaurin/Sylvester's
+Jaywalking/Redrunning/Boondoggling/Vehicular Manslaughter
+Greenland/New Guinea/Borneo/Madagascar
+Pokémon GO/Pokémon Sleep/Pokémon: Let's Go, Pikachu!/Pokémon Sword and Shield
 Einsteinium
 Narrow
 Amazon
