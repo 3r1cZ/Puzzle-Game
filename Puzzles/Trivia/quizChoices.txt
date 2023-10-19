@@ -238,27 +238,5 @@ New York/New Jersey/Washington/California
 J/C/V/X
 Bob Ross/Vincent van Gogh/Leonardo da Vinci/Pablo Picasso
 Alaska/California/Florida/Hawaii
-Newfoundland and Labrador
-Strengths
-The Bible
-Your Name.
-Jurassic World
-Lion King
-Titanic
-Star Wars
-Harry Potter
-Up
-Madagascar
-Beauty and the Beast
-Frozen
-Coco
-Elf
-How To Train Your Dragon
-Cocaine Bear
-Oppenheimer
-Yuri On Ice
-Demon Slayer
-Food Wars
-Love Is War
-Bocchi The Rock
-Death Note
+Newfoundland and Labrador/British Columbia/Prince Edward Island/Nunavut
+Your Name./E.T./Weathering With You/WALL-E
