@@ -1,5 +1,6 @@
 let questionIndex;
 let answer;
+let answerIndex;
 let answerChoices;
 
 function loadTrivia(){
@@ -44,6 +45,9 @@ function displayChoices(choices) {
         temp = choiceSplit[i];
         choiceSplit[i] = choiceSplit[j];
         choiceSplit[j] = temp;
+        if(choiceSplit[i] == answer){
+            answerIndex = i;
+        }
 
     }
     
@@ -56,21 +60,52 @@ function displayChoices(choices) {
 function checkAnswer(){
     let radios = document.getElementsByTagName('input');
     let userAnswer = "";
+    let userAnswerIndex;
     // loop through radios
     for(let i=0; i<radios.length; i++){
         if(radios[i].type === 'radio' && radios[i].checked){ // get radio that is checked
             userAnswer = answerChoices[i]; // get user answer
+            userAnswerIndex = i;
             break;
         }
     }
 
     // check if user answer is correct
     if(userAnswer === answer) {
+        console.log("user answer: " + userAnswer);
+        console.log("answer: " + answer)
         console.log("CORRECT");
+        console.log("Answer: " + answerIndex);
+        console.log("User: " + userAnswerIndex);
+        displayAnswer(true, userAnswerIndex);
     }else{
         console.log("user answer: " + userAnswer);
         console.log("answer: " + answer)
         console.log("INCORRECT");
+        console.log("Answer: " + answerIndex);
+        console.log("User: " + userAnswerIndex);
+        displayAnswer(false, userAnswerIndex);
     }
+}
 
+function displayAnswer(correct, userAnswerIndex) {
+    let display = document.getElementById("answerDisplay");
+    if(correct){
+        display.textContent = "CORRECT";
+        if(userAnswerIndex != undefined){
+            document.getElementById("choice" + (userAnswerIndex+1)).style.color = "green";
+        }
+    }else{
+        display.textContent = "INCORRECT";
+        if(userAnswerIndex != undefined){
+            document.getElementById("choice" + (userAnswerIndex+1)).style.color = "red";
+            document.getElementById("choice" + (answerIndex + 1)).style.color = "green";
+        }
+    }
+    if(userAnswerIndex == undefined){
+        for(let i=1; i<5; i++){
+            document.getElementById("choice" + i).style.color = "red";
+            document.getElementById("choice" + (answerIndex + 1)).style.color = "green";
+        }
+    }
 }

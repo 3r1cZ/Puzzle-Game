@@ -7,15 +7,18 @@
     </head>
     <body onload="loadTrivia();">
         <noscript>Sorry, your browser does not support JavaScript!</noscript>
-        <p id="question"></p>
-        <label for="choice1" id="choice1"></label>
-        <input type="radio" name="choice1">
-        <label for="choice1" id="choice2"></label>
-        <input type="radio" name="choice1">
-        <label for="choice1" id="choice3"></label>
-        <input type="radio" name="choice1">
-        <label for="choice1" id="choice4"></label>
-        <input type="radio" name="choice1">
-        <button onclick="checkAnswer()">Submit</button>
+        <div id="triviaContainer">
+            <p id="question"></p>
+            <label for="choice" class="radioContainer" id="choice1"></label>
+            <input type="radio" name="choice">
+            <label for="choice" class="radioContainer" id="choice2"></label>
+            <input type="radio" name="choice">
+            <label for="choice" class="radioContainer" id="choice3"></label>
+            <input type="radio" name="choice">
+            <label for="choice" class="radioContainer" id="choice4"></label>
+            <input type="radio" name="choice">
+        </div>
+        <button id="submit-button" onclick="checkAnswer()">Submit</button>
+        <p id="answerDisplay"></p>
     </body>
 </html>
