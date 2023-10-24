@@ -27,3 +27,8 @@ html, body {
     left: 46.5%;
     margin-top: 200px;
 }
+
+#timer {
+    text-align: center;
+    font-size: 50px;
+}

@@ -4,6 +4,8 @@ let answerIndex;
 let answerChoices;
 
 function loadTrivia(){
+    display = document.querySelector('#timer');
+    startTimer(20, display);
     getText('quizQuestions.txt')
     .then(displayQuestion);
     // delay displaying answers so that questionIndex gets initialized by displayQuestion()
@@ -57,10 +59,37 @@ function displayChoices(choices) {
     document.getElementById("choice4").textContent = choiceSplit[3];
 }
 
+let intervalID; // stores interval function
+// timer countdown
+function startTimer(duration, display) {
+  var timer = duration, minutes, seconds;
+  intervalID = setInterval(function () {
+      minutes = parseInt(timer / 60, 10);
+      seconds = parseInt(timer % 60, 10);
+
+      minutes = minutes < 10 ? "0" + minutes : minutes;
+      seconds = seconds < 10 ? "0" + seconds : seconds;
+
+      display.textContent = minutes + ":" + seconds;
+
+      if (--timer < 0) {
+          timer = 0;
+          stopTimer();
+          checkAnswer();
+      }
+  }, 1000);
+}
+
+function stopTimer(){
+  clearInterval(intervalID);
+  intervalID = null;
+}
+
 function checkAnswer(){
     let radios = document.getElementsByTagName('input');
     let userAnswer = "";
     let userAnswerIndex;
+    stopTimer();
     // loop through radios
     for(let i=0; i<radios.length; i++){
         if(radios[i].type === 'radio' && radios[i].checked){ // get radio that is checked
