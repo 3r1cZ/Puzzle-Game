@@ -4,50 +4,22 @@ html, body {
   margin: 0;
 }
 
-#wordSort-button {
+#playGamemodeButton {
   position: absolute;
-  top: 10%;
-  left: 30%;
+  left: 45%;
+  bottom: 80%;
   background-color: aqua;
   cursor: pointer;
+  font-size: 60px;
+  border-radius: 20%;
 }
 
-#imageGuesser-button {
+#minigameGamemodeButton {
   position: absolute;
-  top: 10%;
-  left: 44%;
+  left: 42%;
+  bottom: 60%;
   background-color: aqua;
   cursor: pointer;
-}
-
-#mazeSolver-button {
-  position: absolute;
-  top: 10%;
-  left: 60%;
-  background-color: aqua;
-  cursor: pointer;
-}
-
-#trivia-button {
-  position: absolute;
-  top: 20%;
-  left: 30%;
-  background-color: aqua;
-  cursor: pointer;
-}
-
-#buttonMasher-button {
-  position: absolute;
-  top: 20%;
-  left: 44%;
-  background-color: aqua;
-  cursor: pointer;
-}
-
-#buttonChaser-button {
-  position: absolute;
-  top: 20%;
-  left: 60%;
-  background-color: aqua;
-  cursor: pointer;
+  font-size: 60px;
+  border-radius: 20%;
 }
