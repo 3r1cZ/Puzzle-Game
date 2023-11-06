@@ -137,4 +137,5 @@ function displayAnswer(correct, userAnswerIndex) {
             document.getElementById("choice" + (answerIndex + 1)).style.color = "green";
         }
     }
+    document.querySelector(".home-button").style.visibility = "visible";
 }
