@@ -1,10 +1,9 @@
-let questionIndex;
-let answer;
-let answerIndex;
-let answerChoices;
+let questionIndex; // index of question in question list
+let answer; // correct answer of the given question
+let answerIndex; // index of the correct answer in the displayed multiple choice
+let answerChoices; // list of displayed multiple choice
 
 function loadTrivia(){
-    console.log(document.referrer);
     display = document.querySelector('#timer');
     startTimer(20, display);
     getText('quizQuestions.txt')
@@ -102,18 +101,8 @@ function checkAnswer(){
 
     // check if user answer is correct
     if(userAnswer === answer) {
-        console.log("user answer: " + userAnswer);
-        console.log("answer: " + answer)
-        console.log("CORRECT");
-        console.log("Answer: " + answerIndex);
-        console.log("User: " + userAnswerIndex);
         displayAnswer(true, userAnswerIndex);
     }else{
-        console.log("user answer: " + userAnswer);
-        console.log("answer: " + answer)
-        console.log("INCORRECT");
-        console.log("Answer: " + answerIndex);
-        console.log("User: " + userAnswerIndex);
         displayAnswer(false, userAnswerIndex);
     }
 }
