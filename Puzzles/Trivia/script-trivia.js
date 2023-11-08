@@ -137,5 +137,10 @@ function displayAnswer(correct, userAnswerIndex) {
             document.getElementById("choice" + (answerIndex + 1)).style.color = "green";
         }
     }
-    document.querySelector(".home-button").style.visibility = "visible";
+    if(document.referrer == "http://localhost:8000/minigameScreen.html"){
+        document.querySelector(".home-button").style.visibility = "visible";
+    }
+    else{
+        setTimeout(loadRandomPuzzle, 1000);
+    }
 }

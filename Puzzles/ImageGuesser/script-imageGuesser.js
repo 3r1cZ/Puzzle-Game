@@ -118,14 +118,21 @@ function checkAnswer(){
       }else{
         document.getElementById("game-result").textContent = "Incorrect!";
     }
-    document.querySelector(".home-button").style.visibility = "visible"; // display home button
     // disable input fields
     for(let field of captionDiv.children) {
         field.readOnly = true;
     }
     // disable button
-    if(!document.getElementById("submit-button").getAttribute("disabled"))
+    if(!document.getElementById("submit-button").getAttribute("disabled")){
         document.getElementById("submit-button").disabled = true;
+    }
+    
+    if(document.referrer == "http://localhost:8000/minigameScreen.html"){
+        document.querySelector(".home-button").style.visibility = "visible";
+    }
+    else{
+        setTimeout(loadRandomPuzzle, 1000);
+    }
 }
 
 let intervalID; // stores interval function

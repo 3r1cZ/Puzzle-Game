@@ -221,13 +221,18 @@ function endGameDisplay(correct){
     document.getElementById("game-result").textContent = "Incorrect!";
   }
   unDragElements();
-  document.querySelector(".home-button").style.visibility = "visible";
   // hides an element if they are not in a spot
   for(let i=0; i<5; i++){
     if(!isInASpot(document.getElementById("textMove" + (i+1)))){
       document.getElementById("textMove" + (i+1)).style.visibility = "hidden";
     }
   }
+  if(document.referrer == "http://localhost:8000/minigameScreen.html"){
+        document.querySelector(".home-button").style.visibility = "visible";
+    }
+    else{
+        setTimeout(loadRandomPuzzle, 1000);
+    }
 }
 
 function unDragElements(){

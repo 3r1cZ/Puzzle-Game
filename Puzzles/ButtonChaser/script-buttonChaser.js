@@ -30,9 +30,14 @@ function clicked() {
 }
 
 function endGameDisplay() {
-    document.querySelector(".home-button").style.visibility = "visible"; // display home button
     document.getElementById("buttonChased").style.visibility = "hidden";
     document.body.style.backgroundColor = 'white';
+    if(document.referrer == "http://localhost:8000/minigameScreen.html"){
+        document.querySelector(".home-button").style.visibility = "visible";
+    }
+    else{
+        setTimeout(loadRandomPuzzle, 1000);
+    }
 }
 
 let intervalID; // stores interval function
