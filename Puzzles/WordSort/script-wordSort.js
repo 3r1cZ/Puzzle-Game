@@ -227,7 +227,7 @@ function endGameDisplay(correct){
       document.getElementById("textMove" + (i+1)).style.visibility = "hidden";
     }
   }
-  if(document.referrer == "http://localhost:8000/minigameScreen.html"){
+  if(document.referrer.includes("minigameScreen.html")){
         document.querySelector(".home-button").style.visibility = "visible";
     }
     else{

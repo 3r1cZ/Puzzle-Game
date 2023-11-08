@@ -126,8 +126,8 @@ function checkAnswer(){
     if(!document.getElementById("submit-button").getAttribute("disabled")){
         document.getElementById("submit-button").disabled = true;
     }
-    
-    if(document.referrer == "http://localhost:8000/minigameScreen.html"){
+
+    if(document.referrer.includes("minigameScreen.html")){
         document.querySelector(".home-button").style.visibility = "visible";
     }
     else{

@@ -32,7 +32,7 @@ function clicked() {
 function endGameDisplay() {
     document.getElementById("buttonChased").style.visibility = "hidden";
     document.body.style.backgroundColor = 'white';
-    if(document.referrer == "http://localhost:8000/minigameScreen.html"){
+    if(document.referrer.includes("minigameScreen.html")){
         document.querySelector(".home-button").style.visibility = "visible";
     }
     else{
