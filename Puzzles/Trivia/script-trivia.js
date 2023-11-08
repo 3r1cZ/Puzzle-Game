@@ -4,6 +4,7 @@ let answerIndex;
 let answerChoices;
 
 function loadTrivia(){
+    console.log(document.referrer);
     display = document.querySelector('#timer');
     startTimer(20, display);
     getText('quizQuestions.txt')
