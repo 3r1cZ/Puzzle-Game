@@ -4,6 +4,41 @@ html, body {
   margin: 0;
 }
 
+.header-button {
+  background: rgba(0,0,0,0);
+  color: black;
+
+  /* Button text */
+  font-weight: bold;
+  font-size: 20px;
+
+  /* Button shape */
+  border: none;
+
+  /* Button location */
+  padding-top: 10px;
+  padding-bottom: 5px;
+
+  cursor: pointer;
+}
+.header-button:hover {
+  color: red;
+}
+.header-button:active {
+  opacity: 0.5;
+}
+
+.home-button {
+  position: absolute;
+  left: 60%;
+  width: 250px;
+  height: 70px;
+  margin-top: 200px;
+  visibility: hidden;
+  background-color: aqua;
+  cursor: pointer;
+}
+
 #playGamemodeButton {
   position: absolute;
   left: 45%;

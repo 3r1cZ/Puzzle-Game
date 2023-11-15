@@ -46,14 +46,3 @@ html, body {
     left: 1100px;
     bottom: 200px;
 }
-
-.home-button {
-    position: absolute;
-    left: 1100px;
-    width: 250px;
-    height: 70px;
-    bottom: 430px;
-    visibility: hidden;
-    background-color: aqua;
-    cursor: pointer;
-  }

@@ -17,14 +17,3 @@ html, body {
 #clickCount {
     font-size: 50px;
 }
-
-.home-button {
-    position: absolute;
-    left: 42%;
-    width: 250px;
-    height: 70px;
-    bottom: 430px;
-    visibility: hidden;
-    background-color: aqua;
-    cursor: pointer;
-}
